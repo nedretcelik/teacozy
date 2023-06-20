@@ -1,0 +1,140 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 69px;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+}
+header img {
+     height: 50px;
+    justify-content: flex-end;
+    padding: 10px;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    width: 50%;
+    justify-content: end;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    text-decoration:underline;
+    padding: 10px;
+}
+
+.mission {
+    height:750px;
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+}
+
+.background-mission {
+    background-image: url(./image/img-mission-background.jpg);
+    width: 1200px;
+    height: 700px;
+    display:inline-block;
+    background-repeat: no-repeat;
+    align-content: center;
+
+}
+.mission-heading{
+    background-color: black;
+    text-align: center;
+    display: block;
+    margin-top: 303.3666px;
+}
+
+
+.tea-feature {
+    margin-top: 10px;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+}
+.tea-step{
+    margin: 20px;
+    display: block;
+    width: 1000px;
+    height: 800px;
+    display: inline-block;
+}
+.tea-heading {
+    text-align: center;
+}
+
+.tea-photos {
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.tea-photos img {
+    width: 300px;
+    height: 200px;    
+}
+
+.tea-photos h4 {
+    text-align: center;   
+}
+
+.locations {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.background-location {
+    width: 1200px;
+    height: 500px;
+    background-image: url(./image/img-locations-background.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location {
+    background-color: black;
+    color: seashell;
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+    text-align: center;
+    opacity: 1;
+}
+
+.contact {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-info {
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    padding-left: 20px;
+    text-align: lef;
+}
